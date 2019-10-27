@@ -1,6 +1,6 @@
 # Docker support, thanks to xinyifly
 
-FROM openjdk:7-alpine
+FROM openjdk:8-alpine3.9
 RUN apk -U add tini
 WORKDIR /mnt
 COPY ./ ./
